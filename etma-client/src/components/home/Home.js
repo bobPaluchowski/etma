@@ -1,10 +1,9 @@
 import React from 'react'
+import Dashboard from '../dashboard/Dashboard';
 
-function Home() {
+const Home = ({employees}) => {
   return (
-    <div>
-      Home
-    </div>
+      <Dashboard employees={employees} />
   )
 }
 
